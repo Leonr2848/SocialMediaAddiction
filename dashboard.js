@@ -1,7 +1,7 @@
 var most_used = new Chart(document.getElementById('most_used'), {
   type: 'bar',
   data: {
-    labels: ['Instagram', 'TikTok', 'Facebook', 'WhatsApp', 'Twitter', 'LinkedIn', 'WeChat', 'Snapchat', 'LINE', 'KakaoTalk', 'VKontakte', 'YouTube'],
+    labels: ['Instagram', 'TikTok', 'Facebook', 'WhatsApp',  'Twitter', 'LinkedIn', 'WeChat', 'Snapchat', 'LINE', 'KakaoTalk', 'VKontakte', 'YouTube'],
     datasets: [{
     label: 'Total',
     data: [249, 154, 123, 54, 30, 21, 15, 13, 12, 12, 12, 10],
@@ -13,11 +13,11 @@ var most_used = new Chart(document.getElementById('most_used'), {
 var daily_use = new Chart(document.getElementById('daily_use'), {
   type: 'bar',
   data: {
-    labels: ['1.5-2', '2-2.5', '2.5-3', '3-3.5', '3.5-4', '4-4.5', '4.5-5', '5-5.5', '5.5-6', '6-6.5', '6.5-7', '7-7.5', '7.5-8', '8-8.5'],
-    datasets: [{
-    label: 'Number of Students',
-    data: [1, 12, 30, 39, 72, 105, 138, 70, 88, 54, 51, 33, 6, 6],
-      backgroundColor: '#2b6777'
+  labels: ['1.5-2', '2-2.5', '2.5-3', '3-3.5', '3.5-4', '4-4.5', '4.5-5', '5-5.5', '5.5-6', '6-6.5', '6.5-7', '7-7.5', '7.5-8', '8-8.5'],
+  datasets: [{
+  label: 'Number of Students',
+  data: [1, 12, 30, 39, 72, 105, 138, 70, 88, 54, 51, 33, 6, 6],
+  backgroundColor: '#2b6777'
     }]
   }
 })
@@ -33,8 +33,8 @@ for (var i = 1; i <= 705; i++) {
 var addicton_mentalhealth = new Chart(document.getElementById('addiction_mentalhealth'), {
 type: 'line',
 data: {
-  labels: studentLabels,
-  datasets: [
+labels: studentLabels,
+datasets: [
       {
       label: 'Mental Health Score',
       data: mentalHealth,
